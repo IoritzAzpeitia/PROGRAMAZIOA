@@ -1,7 +1,7 @@
 public class RunningNumberProduct {
     public static void main(String[] args) {
         final int LOWERBOUND = 1;
-        final int UPPERBOUND = 10;
+        final int UPPERBOUND = 1000;
         int product = 1;
 
         int number = LOWERBOUND;
