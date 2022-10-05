@@ -7,3 +7,4 @@ public class PrintSheepPattern {
        System.out.println(" *    ||----||");
     }
 }
+       

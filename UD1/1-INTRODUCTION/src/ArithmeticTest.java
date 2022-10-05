@@ -1,5 +1,3 @@
-import java.nio.file.ProviderNotFoundException;
-
 public class ArithmeticTest {     
    public static void main(String[] args) {
       int number1 = 98; 
