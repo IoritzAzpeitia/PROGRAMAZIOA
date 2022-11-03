@@ -1,27 +1,24 @@
 import java.util.Scanner;
 
-public class Segida {
+public class Segida{
     public static void main(String[] args) {
-        
-        int numTotal, numGrupos;
+        int num1, num2;
+     
 
         Scanner in = new Scanner(System.in);
         System.out.print("Zein da inprimatu nahi duzun azken zenbakia? ");
-        numTotal = in.nextInt();
+        num1 = in.nextInt();
         System.out.print("Zenbat zenbakiko multzoak nahi dituzu? ");
-        numGrupos = in.nextInt();
+        num2 = in.nextInt();
 
-        in.close();
-
-        for (int i = 1; i <= numTotal; i++) {
-            
+        for(int i = 1; i <= num1; ++i){
             System.out.println(i);
-
-            if(i%numGrupos==0){
-                System.out.println( "=====" );
+            if( i % num2 == 0){
+               System.out.println("====="); 
             }
-
         }
-    }
+        System.out.println("=====");
 
+
+    }
 }
