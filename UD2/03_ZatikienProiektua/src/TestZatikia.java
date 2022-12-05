@@ -1,7 +1,6 @@
 public class TestZatikia {
     public static void main(String[] args) {
         
-    
     Zatikia z1;
     z1 = new Zatikia(5,0);
     System.out.println("Lehen zatikia: "+z1);
@@ -22,7 +21,8 @@ public class TestZatikia {
 
     System.out.println(z1.isBaliokidea(z2));
 
-    
+    System.out.println(z1.isBiggerThan(z2));
+
     }
 }
 

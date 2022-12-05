@@ -48,9 +48,9 @@ public class Zatikia {
         return this.hamartarBaliokidea() == besteZatikiBat.hamartarBaliokidea();
     } 
     public boolean isBiggerThan(Zatikia besteZatikiBat){
-    //segi
-        return this.zenbakitzailea / this.izendatzailea >= this.zenbakitzailea / this.izendatzailea;
-    //segi
+        boolean handiagoa = false;
+        if (this.zenbakitzailea / this.izendatzailea >= this.zenbakitzailea / this.izendatzailea);
+        return handiagoa;
     }
 }
 

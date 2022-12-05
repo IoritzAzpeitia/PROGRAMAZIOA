@@ -1,4 +1,4 @@
-public class proba {
+public class Proba {
     public static void main(String[] args) {
         System.out.println("437/62".charAt(5));//2
         System.out.println("437/62".indexOf("/"));//3
